@@ -4,6 +4,7 @@ using PriceCalculatorLib.Helper;
 namespace PriceCalculatorTests.Unit
 {
     [TestFixture]
+    [Culture("en-GB")]
     public class FormatHelperUnitTestFixture
     {
         [Test]
