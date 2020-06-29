@@ -11,6 +11,7 @@ using PriceCalculatorLib.Pricing;
 namespace PriceCalculatorTests.Unit
 {
     [TestFixture]
+    [Culture("en-GB")]
     public static class ProgramUnitTestFixture
     {
         private static readonly Mock<IPricingService> MockPricingService = new Mock<IPricingService>();
